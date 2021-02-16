@@ -1,0 +1,49 @@
+.capitalize {
+    text-transform: capitalize;
+}
+.comic {
+    font-family: "Comic Sans MS";
+}
+.center {
+    text-align: center;
+}
+.big {
+    font-size: 50px;
+}
+.red {
+    color:crimson;
+}
+body {
+    background-image: linear-gradient(black, grey);
+    color:rgb(218, 131, 1);
+}
+
+.black {
+    color:black;
+
+}
+.grey {
+    color: rgb(58, 56, 56);
+}
+.orange {
+    color: rgb(218, 131, 1);
+}
+.white {
+    color: rgb(228, 228, 228)
+}
+.credits {
+    color: rgb(97, 97, 97);
+    font-weight: lighter;
+    font-size: 15px
+}
+.button {
+    transition-duration: 400ms;
+}
+.button:hover {
+    background-color: rgb(255, 153, 0);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: not-allowed;
+    align-items: center;
+    border: 1px solid rgb(175, 104, 62);
+}
